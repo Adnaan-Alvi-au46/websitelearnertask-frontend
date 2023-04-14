@@ -24,7 +24,7 @@ export const Login = (props) => {
     e.preventDefault();
 
 try {
-  const res = await axios.post('https://websitelearnerstask-backend-bdap.onrender.comn',{
+  const res = await axios.post('https://websitelearnerstask-backend-bdap.onrender.com/login',{
     ...credentials
    });
    console.log(res)
