@@ -1,0 +1,66 @@
+.auth{
+    text-align: center;
+    display: flex;
+    /* min-height: 100vh; */
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    color: white;
+    justify-content: center;
+  /* background-image: url('../../../vintage-gray-textured-background-design.jpg'); */
+  background-color: rgb(172, 60, 58);
+
+}
+
+ .login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+    .auth-form-container {
+      padding: 1.5rem 3rem;
+      border: 1px solid white;
+      border-radius: 10px;
+      /* margin: 0.5rem; */
+      overflow: hidden;
+    }
+  
+  label {
+    text-align: left;
+    padding: 0.25rem 0;
+    text-transform:capitalize;
+  }
+  
+  input {
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button {
+    margin: 0.5rem;
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #7439db;
+  }
+  
+  .link-btn {
+    background: none;
+    color: white;
+    text-decoration: underline;
+  }
+  .email-not-valid,.incorrect-password,
+  .username,.Password-dosent-match,.Email-already-exist{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.3rem;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  /* @media (min-width:) */

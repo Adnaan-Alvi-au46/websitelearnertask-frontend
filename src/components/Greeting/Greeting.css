@@ -1,0 +1,50 @@
+.greeting-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img{
+    width:70%;
+}
+
+.greeting-container span{
+    display: inline-block;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.greeting-container div:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:390px){
+    .greeting-container span{
+    font-size: 1.1rem;
+
+
+    }
+}
+@media (max-width:350px){
+    .greeting-container span{
+    font-size: 1rem;
+
+    }
+    /* .img{
+        width:100%;
+    } */
+}
+@media (max-width:290px){
+    .greeting-container span{
+    font-size: 0.9rem;
+
+    }
+    /* .img{
+        width:100%;
+    } */
+}
