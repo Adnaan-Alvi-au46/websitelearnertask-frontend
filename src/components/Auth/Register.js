@@ -25,7 +25,7 @@ export const Register = (props) => {
   const submitHandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:6060/register", {
+      const res = await axios.post("https://websitelearnerstask-backend-bdap.onrender.com", {
         ...credentials,
       });
       console.log(res);
